@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c8c09e4-7452-48ca-8220-6038aa932e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9c8c09e4-7452-48ca-8220-6038aa932e5b" name="Changes" comment="Added dryRun and monochrome options on RunnerClass - (for study purposes only)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EbayAdvancedSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EbayAdvancedSearch.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EbayHome.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EbayHome.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,9 +44,100 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ffdin\IdeaProjects\cucumber-tutorial\src\test\resources\features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunnerClass">
+    <configuration name="Feature: Ebay_Home (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Ebay_Home.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-tutorial" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Ebay_Home" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Ebay_Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Ebay_Home.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-tutorial" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Ebay_Home" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Advanced Search Link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Ebay_Home.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="cucumber-tutorial" />
+      <option name="NAME_FILTER" value="^Advanced Search Link$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Advanced Search Link$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Advanced Search Link" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cucumber-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunnerClass" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunnerClass" />
+        <item itemvalue="Cucumber Java.Feature: Ebay_Home (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Advanced Search Link" />
+        <item itemvalue="Cucumber Java.Feature: Ebay_Home" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,8 +146,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692378209873</updated>
-      <workItem from="1692378212952" duration="648000" />
+      <workItem from="1692378212952" duration="5612000" />
     </task>
+    <task id="LOCAL-00001" summary="Added maven dependencies on pom.xml">
+      <created>1692378959450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692378959450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created Ebay_Home feature file">
+      <created>1692379686232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692379686232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created features package and moved Ebay_Home feature file to it">
+      <created>1692380580698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692380580698</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created steps package and Ebay_Home steps definition class">
+      <created>1692380681368</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692380681368</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created testRunner package and TestRunner class">
+      <created>1692380763362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692380763362</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Renamed EbayHome feature file and EbayHomeSteps class to avoid using underscore">
+      <created>1692381276141</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692381276141</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added plugin and dryRun options on TestRunner class">
+      <created>1692382303085</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692382303085</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added EbayAdvancedSearch feature file and EbayAdvancedSearchSteps class">
+      <created>1692382939121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692382939121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added dryRun and monochrome options on RunnerClass - (for study purposes only)">
+      <created>1692383097814</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692383097814</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +227,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added maven dependencies on pom.xml" />
+    <MESSAGE value="Created Ebay_Home feature file" />
+    <MESSAGE value="Created features package and moved Ebay_Home feature file to it" />
+    <MESSAGE value="Created steps package and Ebay_Home steps definition class" />
+    <MESSAGE value="Created testRunner package and TestRunner class" />
+    <MESSAGE value="Renamed EbayHome feature file and EbayHomeSteps class to avoid using underscore" />
+    <MESSAGE value="Added plugin and dryRun options on TestRunner class" />
+    <MESSAGE value="Added EbayAdvancedSearch feature file and EbayAdvancedSearchSteps class" />
+    <MESSAGE value="Added dryRun and monochrome options on RunnerClass - (for study purposes only)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dryRun and monochrome options on RunnerClass - (for study purposes only)" />
   </component>
 </project>
