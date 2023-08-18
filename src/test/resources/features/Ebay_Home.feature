@@ -7,5 +7,3 @@ Feature: Ebay Home Page Scenarios
     When I click on Advanced link
 
     Then I navigate to Advanced Search page
-
-
